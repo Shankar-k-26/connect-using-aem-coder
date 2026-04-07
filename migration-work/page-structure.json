@@ -1,0 +1,184 @@
+{
+  "url": "https://www.acg.aaa.com/connect/blogs/4c/auto/questions-to-ask-when-buying-a-car",
+  "pageType": "blog-article",
+  "sections": [
+    {
+      "id": "section-1",
+      "name": "Blog Header",
+      "style": null,
+      "description": "Blog article header with category, title, author, date, social share, and hero image",
+      "contentSequences": [
+        {
+          "id": "seq-1-1",
+          "description": "Category label ('auto'), H1 title, author photo + name + date + read time, social share icons (Facebook, Email, LinkedIn, Share)",
+          "selector": ".cmp-blog-detail__container"
+        },
+        {
+          "id": "seq-1-2",
+          "description": "Large hero image of couple at car dealership",
+          "selector": ".cmp-blog-detail__hero"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "name": "Article Overview",
+      "style": null,
+      "description": "Article overview paragraph with bullet list and an inline image",
+      "contentSequences": [
+        {
+          "id": "seq-2-1",
+          "description": "H2 'Article overview', two paragraphs of introductory text, bulleted list of what the article covers",
+          "selector": "#text-33a7b9e875"
+        },
+        {
+          "id": "seq-2-2",
+          "description": "Image of couple shaking hands with car salesperson",
+          "selector": "#image-4a07a8e827"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "name": "Quick Checklist",
+      "style": null,
+      "description": "Quick car buying checklist with checkmarks for used, new, and both categories",
+      "contentSequences": [
+        {
+          "id": "seq-3-1",
+          "description": "H2 'Quick car buying checklist', three checklist items (Used Cars, New Cars, Both) each with checkmark emoji and bold label followed by comma-separated items",
+          "selector": "#text-9992830db9"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "name": "Used Car Questions",
+      "style": null,
+      "description": "Questions to ask when buying a used car with 6 numbered Q&A items and an inline CTA",
+      "contentSequences": [
+        {
+          "id": "seq-4-1",
+          "description": "H2 'Questions to ask when buying a used car', introductory paragraph, then 6 numbered H3 questions each with explanatory paragraph. Some questions include bullet lists (e.g., tire/brake/belt inspection tips). Contains inline links to related articles.",
+          "selector": "#text-0c52d8be41"
+        },
+        {
+          "id": "seq-4-2",
+          "description": "Inline call-to-action component with text 'Need some tips on how to trade in your car? We've got a guide for that!' and 'Read More Today' button linking to trade-in guide",
+          "selector": ".end-cta-component:nth-of-type(1) .cmp-end-cta"
+        }
+      ]
+    },
+    {
+      "id": "section-5",
+      "name": "New Car Questions",
+      "style": null,
+      "description": "Questions to ask when buying a new car with 6 numbered Q&A items and image",
+      "contentSequences": [
+        {
+          "id": "seq-5-1",
+          "description": "H2 'Questions to ask when buying a new car', introductory paragraph, then 6 numbered H3 questions each with explanatory paragraph. Contains inline links.",
+          "selector": "#text-a82f85e025"
+        },
+        {
+          "id": "seq-5-2",
+          "description": "Image of car dealer showing customer car engine",
+          "selector": "#image-c91e22ddfe"
+        }
+      ]
+    },
+    {
+      "id": "section-6",
+      "name": "Financing and Negotiation",
+      "style": null,
+      "description": "Questions about financing, loan terms, negotiation tips, and online buying guidance",
+      "contentSequences": [
+        {
+          "id": "seq-6-1",
+          "description": "H2 'Questions to ask about financing and loan terms', paragraph, 4 bulleted Q&A items (monthly payment/APR, total ownership cost, recalls, extended test drive). Then H2 'Negotiation and online buying tips', paragraph about strategy.",
+          "selector": "#text-5ef4c3c421"
+        },
+        {
+          "id": "seq-6-2",
+          "description": "Inline CTA with text 'Shopping for a new car? Try these three ways to reduce insurance rates.' and 'Read More' button",
+          "selector": ".end-cta-component:nth-of-type(2) .cmp-end-cta"
+        },
+        {
+          "id": "seq-6-3",
+          "description": "H2 'Negotiation tips and online car buying questions', H3 subsections for negotiation tips (3 bullet items) and navigating online car buying (3 bullet items), closing paragraphs with advice.",
+          "selector": "#text-e1072221a1"
+        }
+      ]
+    },
+    {
+      "id": "section-7",
+      "name": "Insurance and Final CTA",
+      "style": null,
+      "description": "Insurance impact section and prominent end CTA for AAA car buying services",
+      "contentSequences": [
+        {
+          "id": "seq-7-1",
+          "description": "Inline CTA: 'AAA-owned Car Care Centers and AAA Approved Auto Repair facilities can provide pre-inspections of used vehicles.' with 'Find a Facility' button",
+          "selector": ".end-cta-component:nth-of-type(3) .cmp-end-cta"
+        },
+        {
+          "id": "seq-7-2",
+          "description": "H2 'How will the car affect my insurance rate?', paragraph about insurance factors, 3 bulleted items (sticker price, type of car, safety features), closing paragraph with advice.",
+          "selector": "#text-7d60034ced"
+        },
+        {
+          "id": "seq-7-3",
+          "description": "Prominent end CTA with eyebrow 'buying a car', H3 title 'Explore car options with a trusted brand – AAA', description paragraph, 'Get Help' button",
+          "selector": ".end-cta-component:nth-of-type(4) .cmp-end-cta"
+        }
+      ]
+    },
+    {
+      "id": "section-8",
+      "name": "Disclaimer",
+      "style": null,
+      "description": "Banking disclosure and legal disclaimer text",
+      "contentSequences": [
+        {
+          "id": "seq-8-1",
+          "description": "H4 'Banking Disclosure' followed by legal disclaimer paragraphs about banking products, membership verification, and credit card information",
+          "selector": ".cmp-source-and-disclaimer"
+        }
+      ]
+    },
+    {
+      "id": "section-9",
+      "name": "Related Articles",
+      "style": "grey",
+      "description": "Related articles section with 3 article cards in a grey background",
+      "contentSequences": [
+        {
+          "id": "seq-9-1",
+          "description": "H2 'Other Articles You May Like', grid of 3 article cards each with image, category tag, title, author name and read time",
+          "selector": ".cmp-dynamic-card-list"
+        }
+      ]
+    }
+  ],
+  "excludedContent": [
+    "Header/navigation (auto-populated by EDS)",
+    "Footer (auto-populated by EDS)",
+    "Popup screens (zip code entry, state selection)",
+    "Search/filter components",
+    "Ad components (Revive Adserver)",
+    "Blog side menu (Member Resources sidebar)"
+  ],
+  "blockInventory": {
+    "localBlocks": [],
+    "blockCollectionAvailable": [
+      {"name": "hero", "purpose": "Large heading, text, and buttons for page introductions"},
+      {"name": "cards", "purpose": "Grid of items with images, headings, and descriptions"},
+      {"name": "columns", "purpose": "Side-by-side content in 2-3 columns"},
+      {"name": "accordion", "purpose": "Expandable Q&A sections"},
+      {"name": "tabs", "purpose": "Switchable content panels"},
+      {"name": "carousel", "purpose": "Rotating image/content displays"},
+      {"name": "quote", "purpose": "Highlighted testimonial or pullquote"},
+      {"name": "fragment", "purpose": "Reusable content sections"}
+    ]
+  }
+}

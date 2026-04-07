@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://www.acg.aaa.com/connect/blogs/4c/auto/questions-to-ask-when-buying-a-car",
+  "path": "connect/blogs/4c/auto/questions-to-ask-when-buying-a-car",
+  "timestamp": "2026-04-07T16:54:58.642Z",
+  "title": "Questions to Ask When Buying a Car: New and Used Car Buying Checklist",
+  "template": "blog-article",
+  "blocks": [
+    "hero-blog",
+    "cards-cta",
+    "cards-cta",
+    "cards-cta",
+    "cards-cta",
+    "cards-article"
+  ]
+}

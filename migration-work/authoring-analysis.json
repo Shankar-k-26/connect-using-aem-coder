@@ -1,0 +1,207 @@
+{
+  "url": "https://www.acg.aaa.com/connect/blogs/4c/auto/questions-to-ask-when-buying-a-car",
+  "pageType": "blog-article",
+  "sections": [
+    {
+      "id": "section-1",
+      "name": "Blog Header",
+      "style": null,
+      "sequences": [
+        {
+          "id": "seq-1-1",
+          "description": "Category label ('auto'), H1 title, author photo + name + date + read time, social share icons, hero image",
+          "decision": "block",
+          "blockName": "hero-blog",
+          "blockVariant": "hero-blog",
+          "reason": "Structured blog header with metadata (author image, name, date, read time, social sharing) requires block structure. Not achievable with just default content typing.",
+          "selector": ".cmp-blog-detail__container",
+          "notes": "Combines category tag, article title, author info bar with photo, and hero image into one cohesive block. Social share links can be part of metadata."
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "name": "Article Overview",
+      "style": null,
+      "sequences": [
+        {
+          "id": "seq-2-1",
+          "description": "H2 'Article overview', introductory paragraphs, bulleted list of article contents",
+          "decision": "default-content",
+          "reason": "Author can type heading, paragraphs, and bullet list normally in a document."
+        },
+        {
+          "id": "seq-2-2",
+          "description": "Image of couple shaking hands with car salesperson",
+          "decision": "default-content",
+          "reason": "Single inline image - author inserts it in the document flow."
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "name": "Quick Checklist",
+      "style": null,
+      "sequences": [
+        {
+          "id": "seq-3-1",
+          "description": "H2 'Quick car buying checklist', three checklist items with checkmark emojis for Used Cars, New Cars, and Both",
+          "decision": "default-content",
+          "reason": "Author can type heading and text with emojis/bold formatting normally."
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "name": "Used Car Questions",
+      "style": null,
+      "sequences": [
+        {
+          "id": "seq-4-1",
+          "description": "H2 'Questions to ask when buying a used car', intro paragraph, 6 numbered H3 questions with explanatory paragraphs and bullet lists",
+          "decision": "default-content",
+          "reason": "Long-form article text with headings, paragraphs, lists, and inline links. Author types this normally."
+        },
+        {
+          "id": "seq-4-2",
+          "description": "Inline CTA: 'Need some tips on how to trade in your car?' with 'Read More Today' button",
+          "decision": "block",
+          "blockName": "cards-cta",
+          "blockVariant": "cards-cta",
+          "reason": "Styled callout box with colored background, text, and prominent button. Structured component that requires block decoration.",
+          "selector": ".end-cta-component:nth-of-type(1) .cmp-end-cta",
+          "notes": "Single-row cards block used as inline promotional callout. One row with text + link."
+        }
+      ]
+    },
+    {
+      "id": "section-5",
+      "name": "New Car Questions",
+      "style": null,
+      "sequences": [
+        {
+          "id": "seq-5-1",
+          "description": "H2 'Questions to ask when buying a new car', intro paragraph, 6 numbered H3 questions with explanatory paragraphs",
+          "decision": "default-content",
+          "reason": "Long-form article text with headings, paragraphs, and inline links. Author types normally."
+        },
+        {
+          "id": "seq-5-2",
+          "description": "Image of car dealer showing customer car engine",
+          "decision": "default-content",
+          "reason": "Single inline image - author inserts in document flow."
+        }
+      ]
+    },
+    {
+      "id": "section-6",
+      "name": "Financing and Negotiation",
+      "style": null,
+      "sequences": [
+        {
+          "id": "seq-6-1",
+          "description": "H2 'Questions to ask about financing and loan terms', paragraph, 4 bulleted Q&A items. H2 'Negotiation and online buying tips', intro paragraph.",
+          "decision": "default-content",
+          "reason": "Article text with headings, paragraphs, bullet lists, and inline links. Author types normally."
+        },
+        {
+          "id": "seq-6-2",
+          "description": "Inline CTA: 'Shopping for a new car? Try these three ways to reduce insurance rates.' with 'Read More' button",
+          "decision": "block",
+          "blockName": "cards-cta",
+          "blockVariant": "cards-cta",
+          "reason": "Same styled callout pattern as seq-4-2. Structured CTA component.",
+          "selector": ".end-cta-component:nth-of-type(2) .cmp-end-cta"
+        },
+        {
+          "id": "seq-6-3",
+          "description": "H2 'Negotiation tips and online car buying questions', H3 subsections with bullet lists and closing paragraphs",
+          "decision": "default-content",
+          "reason": "Article text with headings, subheadings, bullet lists, and paragraphs. Author types normally."
+        }
+      ]
+    },
+    {
+      "id": "section-7",
+      "name": "Insurance and Final CTA",
+      "style": null,
+      "sequences": [
+        {
+          "id": "seq-7-1",
+          "description": "Inline CTA: 'AAA-owned Car Care Centers provide pre-inspections' with 'Find a Facility' button",
+          "decision": "block",
+          "blockName": "cards-cta",
+          "blockVariant": "cards-cta",
+          "reason": "Same styled callout pattern. Structured CTA component.",
+          "selector": ".end-cta-component:nth-of-type(3) .cmp-end-cta"
+        },
+        {
+          "id": "seq-7-2",
+          "description": "H2 'How will the car affect my insurance rate?', paragraph, 3 bullet items, closing paragraph",
+          "decision": "default-content",
+          "reason": "Article text with heading, paragraphs, and bullet list. Author types normally."
+        },
+        {
+          "id": "seq-7-3",
+          "description": "Prominent end CTA with eyebrow 'buying a car', title 'Explore car options with a trusted brand – AAA', description, 'Get Help' button",
+          "decision": "block",
+          "blockName": "cards-cta",
+          "blockVariant": "cards-cta",
+          "reason": "Prominent CTA component with eyebrow text, title, description paragraph, and button. More complex than inline CTA but same cards pattern.",
+          "selector": ".end-cta-component:nth-of-type(4) .cmp-end-cta",
+          "notes": "This is a more prominent CTA variant with eyebrow + title + description + button."
+        }
+      ]
+    },
+    {
+      "id": "section-8",
+      "name": "Disclaimer",
+      "style": null,
+      "sequences": [
+        {
+          "id": "seq-8-1",
+          "description": "H4 'Banking Disclosure' followed by legal disclaimer paragraphs",
+          "decision": "default-content",
+          "reason": "Legal text with heading and paragraphs. Author types normally. Styling is a CSS concern."
+        }
+      ]
+    },
+    {
+      "id": "section-9",
+      "name": "Related Articles",
+      "style": "grey",
+      "sectionMetadata": true,
+      "sequences": [
+        {
+          "id": "seq-9-1",
+          "description": "H2 'Other Articles You May Like', grid of 3 article cards each with image, category tag, title, author and read time",
+          "decision": "block",
+          "blockName": "cards-article",
+          "blockVariant": "cards-article",
+          "reason": "Repeating structured pattern: 3 items in a grid, each with image, tag, title, and metadata. Classic cards block usage.",
+          "selector": ".cmp-dynamic-card-list",
+          "notes": "3 article cards with images. Each card: image | tag + title + author/read time. Section has grey background → section-metadata style='grey'."
+        }
+      ]
+    }
+  ],
+  "blockStructures": {
+    "hero": {
+      "structure": "1 row, 1 column: [image, heading, paragraph(s)]",
+      "html": "<div class=\"hero\"><div><div><picture><img></picture><h1>Heading</h1></div></div></div>"
+    },
+    "cards": {
+      "structure": "N rows, 2 columns each: [image | heading, paragraph(s)]",
+      "html": "<div class=\"cards\"><div><div><picture><img></picture></div><div><h2>Title</h2><p>Description</p></div></div></div>",
+      "variants": ["Cards (with images)", "Cards (no images)"]
+    }
+  },
+  "summary": {
+    "totalSections": 9,
+    "totalSequences": 15,
+    "defaultContentCount": 10,
+    "blockCount": 5,
+    "blocksUsed": ["hero-blog", "cards-cta", "cards-article"],
+    "sectionsWithMetadata": ["section-9"]
+  }
+}
