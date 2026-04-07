@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-blog",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-04-07T16:43:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.acg.aaa.com/connect/blogs/4c/auto/questions-to-ask-when-buying-a-car",
+    "originPage": "blog article page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "blog-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "category-tag + h1 + author-info + hero-image",
+    "buttonCount": 0,
+    "imageCount": 2
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "blog article pages",
+      "news article pages",
+      "editorial content with author attribution"
+    ],
+    "notSuitableFor": [
+      "product landing pages",
+      "marketing hero banners with CTA buttons",
+      "pages without author metadata"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/connect/blogs/4c/auto/questions-to-ask-when-buying-a-car"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-07T16:43:00.000Z"
+  }
+}

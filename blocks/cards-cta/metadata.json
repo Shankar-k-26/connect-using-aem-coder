@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-cta",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-04-07T16:43:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.acg.aaa.com/connect/blogs/4c/auto/questions-to-ask-when-buying-a-car",
+    "originPage": "blog article page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "accent",
+    "density": "compact",
+    "purpose": "inline-cta",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "text + button",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "inline promotional callouts within articles",
+      "single-item CTA cards",
+      "content break promotional banners"
+    ],
+    "notSuitableFor": [
+      "multi-item card grids",
+      "image-heavy card layouts",
+      "product listing cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/connect/blogs/4c/auto/questions-to-ask-when-buying-a-car"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-07T16:43:00.000Z"
+  }
+}

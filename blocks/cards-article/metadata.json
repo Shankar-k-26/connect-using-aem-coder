@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-article",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-04-07T16:43:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.acg.aaa.com/connect/blogs/4c/auto/questions-to-ask-when-buying-a-car",
+    "originPage": "blog article page",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "grey",
+    "density": "standard",
+    "purpose": "related-articles",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + tag + title + author-readtime",
+    "buttonCount": 0,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "related articles sections",
+      "blog post recommendation grids",
+      "article listing cards with thumbnails"
+    ],
+    "notSuitableFor": [
+      "product cards",
+      "feature highlight cards",
+      "cards without images"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/connect/blogs/4c/auto/questions-to-ask-when-buying-a-car"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-07T16:43:00.000Z"
+  }
+}
